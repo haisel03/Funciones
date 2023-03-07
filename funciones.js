@@ -1,3 +1,4 @@
+//Metodo para validar una cedula por el modulo 10
 function ValidaCedula(ced) {
   var status = false;
   var c = ced.replace(/-/g, "");
